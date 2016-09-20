@@ -10,6 +10,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: test.py:8
+#: test.py:9
 msgid "This is a test."
 msgstr "テストです。"
+
+#: test.py:12
+#, python-brace-format
+msgid "You have {numUnreadMsgs} unread Message."
+msgid_plural "You have {numUnreadMsgs} unread Messages."
+msgstr[0] "未読メッセージ{numUnreadMsgs}件。"
+msgstr[1] "未読メッセージ{numUnreadMsgs}件。"
