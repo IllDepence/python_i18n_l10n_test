@@ -1,0 +1,2 @@
+xgettext -L Python -d test -o ja_JA.po test.py
+msgfmt -o translations/ja_JA/LC_MESSAGES/test.mo ja_JA.po
